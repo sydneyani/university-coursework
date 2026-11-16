@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+
+# Build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+out/
+coverage/
+.next/
+.turbo/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+*.kdbx
+
+# Large binaries and archives
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
+*.exe
+*.dll
+*.so
+*.dylib
+*.iso
+*.dmg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+
+# OS files
+.DS_Store
+Thumbs.db
